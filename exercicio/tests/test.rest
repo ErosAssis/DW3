@@ -1,0 +1,10 @@
+
+### teste de API helloUser
+POST http://localhost:40000/ctlExercicio HTTP/1.1
+content-type: application/json
+
+{
+"num1Par": 20,
+"num2Par": 2,
+"operacao": "/"
+}
